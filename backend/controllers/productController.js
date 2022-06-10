@@ -9,8 +9,6 @@ const cloudinary = require("cloudinary");
 
 
 
-
-
 // Create Product -- Admin
 exports.createProduct = catchAsyncErrors(async (req, res, next) => {
   let Images = [];
