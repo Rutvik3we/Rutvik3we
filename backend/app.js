@@ -15,9 +15,9 @@ const order = require("./routes/orderRoute");
 
 const path = require("path");
 
-//config
-if(process.env.NODE_ENV!=="PRODUCTION"){
-  require("dotenv").config({path:"backend/config/config.env"});
+// Config
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config({ path: "backend/config/config.env" });
 }
 
 app.use(express.json());
